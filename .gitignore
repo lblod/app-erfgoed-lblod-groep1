@@ -1,0 +1,10 @@
+# Virtuoso files /data/db
+/data/db/*
+!/data/db/toLoad
+!/data/db/toLoad/*
+
+docker-compose.override.yml
+.env
+/data/files/*
+/data/elasticsearch/*
+/config/search/update-handler.store
