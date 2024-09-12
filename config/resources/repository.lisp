@@ -5,7 +5,6 @@
 (add-prefix "rdfs" "http://www.w3.org/2000/01/rdf-schema#")
 (add-prefix "nfo" "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#")
 (add-prefix "nie" "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#")
-(add-prefix "dct" "http://purl.org/dc/terms/")
 (add-prefix "dbpedia" "http://dbpedia.org/ontology/")
 (add-prefix "prov" "http://www.w3.org/ns/prov#")
 (add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")
@@ -18,3 +17,5 @@
 (add-prefix "locn" "http://www.w3.org/ns/locn#")
 (add-prefix "adres" "https://data.vlaanderen.be/ns/adres#")
 (add-prefix "besluit" "http://data.vlaanderen.be/ns/besluit#")
+(add-prefix "org" "http://www.w3.org/ns/org#")
+

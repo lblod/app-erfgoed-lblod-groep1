@@ -24,7 +24,7 @@
   :on-path "agents")
 
 (define-resource organization(agent)
-  :class (s-prefix "org:Organisatie")
+  :class (s-prefix "org:Organization")
   :properties `((:voorkeursnaam :string ,(s-prefix "skos:prefLabel")))
   :resource-base (s-url "http://data.lblod.info/id/organizations/")
   :features '(include-uri)
