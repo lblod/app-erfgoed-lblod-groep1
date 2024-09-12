@@ -67,7 +67,7 @@
 :resource-base (s-url "http://data.lblod.info/id/adressen/")
 :on-path "adressen")
 
-(define-resource bestuurseenheid ()
+(define-resource bestuurseenheid (organization)
   :class (s-prefix "besluit:Bestuurseenheid")
   :properties `((:naam :string ,(s-prefix "skos:prefLabel")))
   :has-one `((locatie :via ,(s-prefix "besluit:werkingsgebied")
