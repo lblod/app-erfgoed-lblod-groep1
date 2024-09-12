@@ -29,6 +29,7 @@ defmodule Acl.UserGroups.Config do
     "https://data.vlaanderen.be/ns/persoon#Person",
     "http://www.w3.org/ns/locn#Address",
     "http://mu.semte.ch/vocabularies/ext/BestuurseenheidClassificatieCode",
+    "http://mu.semte.ch/vocabularies/ext/PermissionClassificatieCode"
   ]
 
   @org_type []
