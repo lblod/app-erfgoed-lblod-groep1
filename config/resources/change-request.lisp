@@ -1,11 +1,10 @@
 (define-resource changeRequest ()
   :class (s-prefix "ext:ChangeRequest")
   :properties `((:naam :string ,(s-prefix "skos:prefLabel"))
+                (:event-type :string ,(s-prefix "ext:eventType")) ;; https://thesaurus.onroerenderfgoed.be/conceptschemes/GEBEURTENISTYPES/c?type=all&label=
                 (:created-at :datetime ,(s-prefix "dct:created"))
                 (:approved-at :datetime ,(s-prefix "ext:approvedAt")))
-  :has-one `((eventType :via ,(s-prefix "ext:eventType") ;; https://thesaurus.onroerenderfgoed.be/conceptschemes/GEBEURTENISTYPES/c?type=all&label=
-                :as "event-type")
-            (agent :via ,(s-prefix "ext:requester")
+  :has-one `((agent :via ,(s-prefix "ext:requester")
                 :as "requester")
              (locatie :via ,(s-prefix "ext:forLocation")
                 :as "location"))
