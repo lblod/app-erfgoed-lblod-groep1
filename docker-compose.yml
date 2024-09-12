@@ -100,3 +100,6 @@ services:
     links:
       - virtuoso:database
     restart: always
+  adressenregister:
+    image: lblod/adressenregister-fuzzy-search-service:0.8.0
+    restart: always

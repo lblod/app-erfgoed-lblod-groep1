@@ -63,6 +63,13 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://database:8890/sparql/"
   end
 
+  #################################################################
+  # Address search
+  #################################################################
+
+  match "/adresses-register/*path" do
+    forward conn, path, "http://adressenregister"
+  end
   ###############################################################
   # frontend
   ###############################################################
