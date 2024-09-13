@@ -82,7 +82,29 @@ defmodule Acl.UserGroups.Config do
           %GraphSpec {
             graph: "http://mu.semte.ch/graphs/organizations/",
             constraint: %ResourceConstraint {
-              resource_types: @org_type
+              resource_types: @org_type ++ @public_type
+            }
+          },
+        ]
+      },
+
+      %GroupSpec {
+        name: "requester",
+        useage: [:read, :write, :read_for_write],
+        access: %AccessByQuery {
+          vars: ["session_group"],
+          query: "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+                  PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+                  SELECT DISTINCT ?session_group WHERE {
+                    <SESSION_ID> ext:sessionGroup/mu:uuid ?session_group;
+                                 ext:sessionRole \"Hackathon-Requester\".
+                  }"
+        },
+        graphs: [
+          %GraphSpec {
+            graph: "http://mu.semte.ch/graphs/organizations/",
+            constraint: %ResourceConstraint {
+              resource_types: @org_type ++ @public_type
             }
           },
         ]
