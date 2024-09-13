@@ -118,6 +118,11 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend/assets/"
   end
 
+  match "/forms/*path", %{ layer: :static } do
+    forward conn, path, "http://frontend/forms/"
+  end
+
+
   match "/@appuniversum/*path", %{ accept: [:any], layer: :api } do
     Proxy.forward conn, path, "http://frontend/@appuniversum/"
   end
