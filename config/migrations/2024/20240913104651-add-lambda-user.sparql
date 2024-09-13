@@ -3,7 +3,6 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX mu:<http://mu.semte.ch/vocabularies/core/>
 PREFIX ext:<http://mu.semte.ch/vocabularies/ext/>
-
 INSERT DATA {
   GRAPH <http://mu.semte.ch/graphs/public> {
     <http://data.lblod.info/id/persoon/1fb99db8-bb32-4c21-9e7b-4f2d9bf5a7c0> a foaf:Person ;
@@ -22,8 +21,8 @@ INSERT DATA {
 ;
 
 INSERT DATA {
-  GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://mu.semte.ch/graphs/organizations/01f5df79d1c889c5fb42592a72d7aa50bcfc77a8d04c7f2015df993b0e479835> a foaf:Person ;
+  GRAPH <http://mu.semte.ch/graphs/organizations/01f5df79d1c889c5fb42592a72d7aa50bcfc77a8d04c7f2015df993b0e479835> {
+    <http://data.lblod.info/id/persoon/1fb99db8-bb32-4c21-9e7b-4f2d9bf5a7c0> a foaf:Person ;
       mu:uuid "1fb99db8-bb32-4c21-9e7b-4f2d9bf5a7c0" ;
       foaf:firstName "John" ;
       foaf:familyName "Doe" ;

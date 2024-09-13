@@ -1,0 +1,23 @@
+# it misses lots of things like ext:requester etc. 
+# just to make the frontend page work
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+INSERT  {
+ 
+	graph ?g {
+		<http://data.lblod.info/id/change-requests/7db7f579-dc94-4804-9875-e82de28eaf0b> a ext:ChangeRequest;
+		 	ext:eventType <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde>;
+		 	ext:inventorisUri <https://id.erfgoed.net/erfgoedobjecten/300554>;
+		 	dct:created "2023-09-13T12:00:00Z"^^xsd:dateTime;
+		 	ext:approvedAt "2023-09-14T12:00:00Z"^^xsd:dateTime.
+
+	}
+} where  {
+
+	graph ?g  {
+		FILTER (?g in (<http://mu.semte.ch/graphs/organizations/01f5df79d1c889c5fb42592a72d7aa50bcfc77a8d04c7f2015df993b0e479835>,<http://mu.semte.ch/graphs/public>))
+	
+	
+	}
+}
