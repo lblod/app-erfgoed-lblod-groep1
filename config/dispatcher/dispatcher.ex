@@ -55,6 +55,41 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/permission-classification-codes/"
   end
   
+  match "/bestuurseenheid-classificatie-codes/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/bestuurseenheid-classificatie-codes/")
+  end
+
+  match "/administrative-units/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/administrative-units/")
+  end
+
+  match "/locations/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/locations/")
+  end
+
+  match "/addresses/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/addresses/")
+  end
+
+  match "/contact-infos/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/contact-infos/")
+  end
+
+  match "/persons/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/persons/")
+  end
+
+  match "/organizations/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/organizations/")
+  end
+
+  match "/agents/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/agents/")
+  end
+
+  match "/change-requests/*path", %{layer: :api, accept: %{json: true}} do
+    forward(conn, path, "http://cache/change-requests/")
+  end
 
   match "/mock/sessions/*path", %{ accept: [:any], layer: :api} do
     Proxy.forward conn, path, "http://mock-login/sessions/"
@@ -87,41 +122,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend/@appuniversum/"
   end
 
-  match "/bestuurseenheid-classificatie-codes/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/bestuurseenheid-classificatie-codes/")
-  end
-
-  match "/bestuurseenheid/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/bestuurseenheid/")
-  end
-
-  match "/locatie/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/locatie/")
-  end
-
-  match "/adres/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/adres/")
-  end
-
-  match "/contact-info/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/contact-info/")
-  end
-
-  match "/persoon/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/persoon/")
-  end
-
-  match "/organization/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/organization/")
-  end
-
-  match "/agent/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/agent/")
-  end
-
-  match "/changeRequest/*path", %{layer: :api, accept: %{json: true}} do
-    forward(conn, path, "http://cache/changeRequest/")
-  end
 
   match "/*_path", %{ accept: [:html], layer: :api } do
     Proxy.forward conn, [], "http://frontend/index.html"
