@@ -1,0 +1,201 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.lblod.info/id/locaties/61584807-40f4-4d3b-b836-5ef52957c5e9> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/f5df00a8-1eca-475c-9a43-30b1057527c1> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/742837ce-6cb4-4de1-8cc3-cf7722ffb6ef> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/531ba016-ba47-43ec-aff0-40b49b0fde47> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/fac25135-36bc-40d8-bf22-d639025b5ada> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/0df405ae-c788-4028-82c1-b16574d6fb7b> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/83e91851-e35b-4a1c-9f22-f02765a053d7> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/20b9a5ca-2ddc-471f-af80-9694ff780d49> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/424585d4-087c-433b-a994-fe2afad7e4fc> a prov:Location ;
+    rdfs:prefLabel "Onbepaald" .
+<http://data.lblod.info/id/locaties/902f7de4-719e-452c-9462-ccad328768f2> a prov:Location ;
+    rdfs:prefLabel "Aalst (Oost-Vlaanderen)" .
+<http://data.lblod.info/id/locaties/3b82026f-6fe3-4a49-a2b6-cee9c4cce90c> a prov:Location ;
+    rdfs:prefLabel "'t Maegelijnplein 1, Kattestraat 32-34 (Aalst)" .
+<http://data.lblod.info/id/locaties/e6a39d7e-0ac3-4852-874a-419fef7cb102> a prov:Location ;
+    rdfs:prefLabel "Aalst, Hofstade (Aalst), Erpe (Erpe-Mere), Lede (Lede)" .
+<http://data.lblod.info/id/locaties/e6477486-b6d7-4945-93e2-dfbf0a7fbfd4> a prov:Location ;
+    rdfs:prefLabel "Aalst, Erembodegem, Meldert, Moorsel (Aalst), Hekelgem (Affligem)" .
+<http://data.lblod.info/id/locaties/7835304a-c95c-459c-aca7-b2bb99d96279> a prov:Location ;
+    rdfs:prefLabel "Aalst (Aalst)" .
+<http://data.lblod.info/id/locaties/20f4f533-7586-4cb0-ba01-630e50e8d731> a prov:Location ;
+    rdfs:prefLabel "Aalst (Aalst)" .
+<http://data.lblod.info/id/locaties/71f8ea3d-b38e-4f7f-be71-a96cbe972c58> a prov:Location ;
+    rdfs:prefLabel "Baardegem, Meldert (Aalst), Asse (Asse), Mazenzele, Opwijk (Opwijk)" .
+<http://data.lblod.info/id/locaties/734bde60-35ae-4448-9444-6aa62e7e61c4> a prov:Location ;
+    rdfs:prefLabel "Baardegem (Aalst)" .
+<http://data.lblod.info/id/locaties/f90e0eb4-f3e4-44f1-8604-99756d99c980> a prov:Location ;
+    rdfs:prefLabel "Erembodegem (Aalst), Hekelgem, Teralfene (Affligem), Denderleeuw, Welle (Denderleeuw)" .
+<http://data.lblod.info/id/locaties/8ec08f2f-3fdc-473a-8a96-8cc0575f9569> a prov:Location ;
+    rdfs:prefLabel "Erembodegem (Aalst)" .
+<http://data.lblod.info/id/locaties/5a6d71bf-9961-4a15-b07c-b31777b6b1ad> a prov:Location ;
+    rdfs:prefLabel "Gijzegem, Herdersem (Aalst), Mespelare (Dendermonde), Denderbelle, Wieze (Lebbeke)" .
+<http://data.lblod.info/id/locaties/5af49555-4d33-4c58-9b6b-231e303b229e> a prov:Location ;
+    rdfs:prefLabel "Herdersem (Aalst)" .
+<http://data.lblod.info/id/locaties/f5484350-5731-40ba-a488-d757f0f0625d> a prov:Location ;
+    rdfs:prefLabel "Herdersem (Aalst), Wieze (Lebbeke)" .
+<http://data.lblod.info/id/locaties/a9604c07-e873-4fd3-83e4-76a9b84fbe70> a prov:Location ;
+    rdfs:prefLabel "Hofstade (Aalst)" .
+<http://data.lblod.info/id/locaties/5685d674-f314-40e0-86d2-9b187fa33a67> a prov:Location ;
+    rdfs:prefLabel "Nieuwerkerken (Aalst)" .
+<http://data.lblod.info/id/locaties/f526cfb3-2f61-4932-b024-e869f65f7ca5> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/6f71f79f-8a76-4438-a328-733f86a5382f> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/96d920af-f0ff-4e3f-a0ae-953ac6a0687d> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/cf049c16-1eb9-4824-8426-b0d769035fb1> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/3c6e9749-9e71-43e0-af3a-1e51f1809eb4> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/bd275ae4-f75b-467f-9755-d8771ed10cfd> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/421b6e68-3500-432f-8005-d605ebca9332> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/42c7e314-b84b-4854-8f2b-1fa0bf57b041> a prov:Location ;
+    rdfs:prefLabel "Achtermaal, Maleveld (Aalst)" .
+<http://data.lblod.info/id/locaties/8ffd5309-71d3-4791-83bc-f6789c0226d6> a prov:Location ;
+    rdfs:prefLabel "Achtermaal 16 (Aalst)" .
+<http://data.lblod.info/id/locaties/fbc3b34e-6307-48f5-85c8-37e71de237e7> a prov:Location ;
+    rdfs:prefLabel "Achtermaal 29 (Aalst)" .
+<http://data.lblod.info/id/locaties/1fd33f7d-0cec-4e93-9437-d3afee9a0a58> a prov:Location ;
+    rdfs:prefLabel "Achtermaal 29 (Aalst)" .
+<http://data.lblod.info/id/locaties/4b709f4d-31ce-4272-9092-027d327582e9> a prov:Location ;
+    rdfs:prefLabel "Achtermaal 7 (Aalst)" .
+<http://data.lblod.info/id/locaties/a86fb442-4a84-4532-835c-b547a97fe9ca> a prov:Location ;
+    rdfs:prefLabel "Albert Liénartstraat 1-2, 3 (Aalst)" .
+<http://data.lblod.info/id/locaties/b99175e1-b001-43f7-aec3-79c67300c21a> a prov:Location ;
+    rdfs:prefLabel "Albert Liénartstraat 8-30 (Aalst)" .
+<http://data.lblod.info/id/locaties/25c36945-b0fb-4a6c-a698-a2572b3e4d07> a prov:Location ;
+    rdfs:prefLabel "Alfons De Cockstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/03baee92-b688-4e5c-9f83-8b619fd0d1c7> a prov:Location ;
+    rdfs:prefLabel "Alfons De Cockstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/4d9c8f49-9a37-48fc-9f58-03fc6a4ec9b3> a prov:Location ;
+    rdfs:prefLabel "Alfons De Cockstraat 61 (Aalst)" .
+<http://data.lblod.info/id/locaties/b704606a-9ae4-4f8c-8b94-939c78f97d73> a prov:Location ;
+    rdfs:prefLabel "Alfons De Cockstraat 8 (Aalst)" .
+<http://data.lblod.info/id/locaties/68ff68ef-2c77-4ae8-a974-93795f922af0> a prov:Location ;
+    rdfs:prefLabel "Alfons De Cockstraat 81 (Aalst)" .
+<http://data.lblod.info/id/locaties/697dc3bf-a5c0-42fb-a42e-392627bdff72> a prov:Location ;
+    rdfs:prefLabel "Alfons Van de Maelestraat, Erembodegemstraat, Frans Blanckaertdreef, Groenenbrielstraat, Kapellekensbaan, Orangeriestraat, Parklaan, Rooms-Hofstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/7d63eda1-66df-4d1d-873a-b06b5ba085f8> a prov:Location ;
+    rdfs:prefLabel "Alfons Van de Maelestraat 96 (Aalst)" .
+<http://data.lblod.info/id/locaties/fb627f2d-8492-40ee-a223-9a38287b8cf2> a prov:Location ;
+    rdfs:prefLabel "Alfred Keldersstraat 30 (Aalst)" .
+<http://data.lblod.info/id/locaties/c3b90985-aeea-4302-838f-729dd1cc2b45> a prov:Location ;
+    rdfs:prefLabel "Anna Snelstraat 3-17, Begijnhof 1-52, 53, Pontstraat 50-56, 50B (Aalst)" .
+<http://data.lblod.info/id/locaties/5ee9934f-5c60-4026-a168-5a753c6e7329> a prov:Location ;
+    rdfs:prefLabel "Arbeidstraat, Boterstraat, Keizersplein, Korte Nieuwstraat, Nieuwstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/88384371-2e68-4882-bdff-4ef5946a4542> a prov:Location ;
+    rdfs:prefLabel "Arbeidstraat 2 (Aalst)" .
+<http://data.lblod.info/id/locaties/4ac5b8be-6d38-44f0-9898-74a9170062e3> a prov:Location ;
+    rdfs:prefLabel "Avouéstraat 5 (Aalst)" .
+<http://data.lblod.info/id/locaties/552dd986-a079-4196-b7b4-7785f09e26bf> a prov:Location ;
+    rdfs:prefLabel "Avouéstraat 9 (Aalst)" .
+<http://data.lblod.info/id/locaties/19355c16-e73a-47d3-ba9c-bc3ff0041583> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp, Bieseweide, Houwelgat (Aalst)" .
+<http://data.lblod.info/id/locaties/d748c4e0-4472-44d1-bf67-36b45d614c56> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 1 (Aalst)" .
+<http://data.lblod.info/id/locaties/ae740543-b53e-4075-bf6b-4276f38f576b> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 23 (Aalst)" .
+<http://data.lblod.info/id/locaties/4057e1df-a340-4c44-9f4e-e129a2e627ad> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 26 (Aalst)" .
+<http://data.lblod.info/id/locaties/0418fb3f-9992-455f-8edb-f1ad53138fe7> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 29 (Aalst)" .
+<http://data.lblod.info/id/locaties/7242827d-f427-4b1e-8938-dad075b981d7> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 42 (Aalst)" .
+<http://data.lblod.info/id/locaties/7dc3f040-f4d6-470e-80a1-28dc1d256ebb> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 43 (Aalst)" .
+<http://data.lblod.info/id/locaties/57006ec3-0c7f-4a44-a247-d653995628de> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 43A (Aalst)" .
+<http://data.lblod.info/id/locaties/30fba25f-a673-47eb-b81a-15feb8b4fc64> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 48 (Aalst)" .
+<http://data.lblod.info/id/locaties/9b0aa37a-e9bf-4e29-8e57-9b8900322a28> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 52, 52A-C (Aalst)" .
+<http://data.lblod.info/id/locaties/229ff7eb-c47d-4595-ad5b-c9610efa1d1d> a prov:Location ;
+    rdfs:prefLabel "Baardegem-Dorp 64 (Aalst)" .
+<http://data.lblod.info/id/locaties/97e11175-4d6f-4fd6-a3ee-c71ae3cc1716> a prov:Location ;
+    rdfs:prefLabel "Bauwensplein 10 (Aalst)" .
+<http://data.lblod.info/id/locaties/74a30fa9-24ca-421f-a604-81a2a5e0ca45> a prov:Location ;
+    rdfs:prefLabel "Begijnhof (Aalst)" .
+<http://data.lblod.info/id/locaties/e7ffb6e6-8366-4b01-a46a-e504adb533a6> a prov:Location ;
+    rdfs:prefLabel "Begijnhof 1 (Aalst)" .
+<http://data.lblod.info/id/locaties/648af567-8344-4b9d-88bf-4dc2e8844b7d> a prov:Location ;
+    rdfs:prefLabel "Begijnhof 40A (Aalst)" .
+<http://data.lblod.info/id/locaties/e9363fba-b98c-471d-8880-43baea8d68a7> a prov:Location ;
+    rdfs:prefLabel "Begijnhof 41-42 (Aalst)" .
+<http://data.lblod.info/id/locaties/0663f673-d862-475f-9c24-6a171a5cbe78> a prov:Location ;
+    rdfs:prefLabel "Bergsken, Koebrugstraat, Pachting (Aalst)" .
+<http://data.lblod.info/id/locaties/48dd2b01-3b27-44b4-a8a1-330ea25e2dd1> a prov:Location ;
+    rdfs:prefLabel "Bergsken 1, 1A (Aalst)" .
+<http://data.lblod.info/id/locaties/464b9022-99e1-4db1-910c-fb48bb227fc0> a prov:Location ;
+    rdfs:prefLabel "Bergsken 20 (Aalst)" .
+<http://data.lblod.info/id/locaties/de76ee7c-2732-454f-a19e-252e190e7cbe> a prov:Location ;
+    rdfs:prefLabel "Bergsken 28 (Aalst)" .
+<http://data.lblod.info/id/locaties/66f596ea-5805-4b1b-bcd0-11e2b7c66b0b> a prov:Location ;
+    rdfs:prefLabel "Bergsken 36 (Aalst)" .
+<http://data.lblod.info/id/locaties/59037a72-fbee-4970-817d-8efee3401079> a prov:Location ;
+    rdfs:prefLabel "Bergsken 4-6 (Aalst)" .
+<http://data.lblod.info/id/locaties/4c4d035a-e5df-4e0f-9ec5-4641641ffee3> a prov:Location ;
+    rdfs:prefLabel "Bergsken 48 (Aalst)" .
+<http://data.lblod.info/id/locaties/ae72c950-cd98-4c0c-b2e0-9ffc49b43412> a prov:Location ;
+    rdfs:prefLabel "Bergweg, Hofstade-Dorp (Aalst)" .
+<http://data.lblod.info/id/locaties/8a2b9302-9f0d-4f63-977a-5c8f0fe0574f> a prov:Location ;
+    rdfs:prefLabel "Bert Van Hoorickstraat 39-41 (Aalst)" .
+<http://data.lblod.info/id/locaties/78738b45-7ce9-4d0a-8adc-7cade36b71e5> a prov:Location ;
+    rdfs:prefLabel "Biekorfstraat 2-8 (Aalst)" .
+<http://data.lblod.info/id/locaties/c11c631c-0af9-4b1c-92eb-638319c355fb> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/ba69fa71-d16e-4794-acd8-97d95a71bba7> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/58832ee4-7bb5-4cba-bf5b-2753607f87bf> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/5929b594-0eb3-493e-8b94-c3403acc2a70> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/47ad93c5-940c-4860-acd2-5e433b3bd0cd> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/33a118f5-07a8-4697-9d78-429ec92ccc9a> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat 1 (Aalst)" .
+<http://data.lblod.info/id/locaties/8fa8fa25-bbda-4da0-809a-3412420a089a> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat 2 (Aalst)" .
+<http://data.lblod.info/id/locaties/5fce2970-8779-4e3f-9c38-5a14adf64a43> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat 24 (Aalst)" .
+<http://data.lblod.info/id/locaties/5a48331f-2d63-4ef9-be53-0d346aeaf78e> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat 75 (Aalst)" .
+<http://data.lblod.info/id/locaties/341e3686-da65-45ae-98fc-b8f7ac737a4c> a prov:Location ;
+    rdfs:prefLabel "Blauwenbergstraat 77 (Aalst)" .
+<http://data.lblod.info/id/locaties/4a7aad04-318f-40bd-a968-89fd24a386e0> a prov:Location ;
+    rdfs:prefLabel "Blektestraat (Aalst)" .
+<http://data.lblod.info/id/locaties/f59a1d8f-e751-49e3-bb55-cd214d315434> a prov:Location ;
+    rdfs:prefLabel "Blektestraat 79, 79A (Aalst)" .
+<http://data.lblod.info/id/locaties/6d2ab25b-fbf8-45ec-8616-e85a1da2341a> a prov:Location ;
+    rdfs:prefLabel "Blektestraat 87-89 (Aalst)" .
+<http://data.lblod.info/id/locaties/60345ea9-9503-4501-b0a9-ebc6b55ed403> a prov:Location ;
+    rdfs:prefLabel "Blektestraat 89 (Aalst)" .
+<http://data.lblod.info/id/locaties/e6290f8a-7b93-49a9-b767-ff4b1d642a54> a prov:Location ;
+    rdfs:prefLabel "Borreput 10 (Aalst)" .
+<http://data.lblod.info/id/locaties/31d41108-5ecb-46a1-84b7-29e2afc6020d> a prov:Location ;
+    rdfs:prefLabel "Bredestraat 154 (Aalst)" .
+<http://data.lblod.info/id/locaties/d88be626-ddc1-4156-9f7c-eed2af1ea54f> a prov:Location ;
+    rdfs:prefLabel "Bredestraat 389-393 (Aalst)" .
+<http://data.lblod.info/id/locaties/c31b8275-8b98-42c6-b381-dc5136082fe3> a prov:Location ;
+    rdfs:prefLabel "Bremtstraat 133 (Aalst)" .
+<http://data.lblod.info/id/locaties/62563feb-1c51-4aa3-90df-b804a10e8616> a prov:Location ;
+    rdfs:prefLabel "Broekstraat (Aalst)" .
+<http://data.lblod.info/id/locaties/f0b2329b-61f9-47b1-98aa-6821b5ef5ffe> a prov:Location ;
+    rdfs:prefLabel "Broekstraat 1, 1A (Aalst)" .
+<http://data.lblod.info/id/locaties/9bc5511e-8c0d-4c5e-8538-10b9cb8d69a9> a prov:Location ;
+    rdfs:prefLabel "Brulken (Aalst)" .
+<http://data.lblod.info/id/locaties/2d66abdd-214c-499e-9023-8e1b76c00605> a prov:Location ;
+    rdfs:prefLabel "Brusselbaan 2, Brusselse steenweg 211-213 (Aalst)" .
