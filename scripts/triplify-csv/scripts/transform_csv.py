@@ -1,5 +1,6 @@
 import csv
 import json
+import uuid
 
 # Load mapping config from JSON file
 with open("config/config.json", "r") as json_file:
@@ -10,49 +11,51 @@ with open("config/config.json", "r") as json_file:
 def csv_to_turtle(csv_file_path, turtle_file_path):
     with open(csv_file_path, "r") as csv_file, open(
         turtle_file_path, "w"
-    ) as turtle_file:
+    ) as turtle_file, open("ttl/location.ttl", "w") as location_turtle_file:
         reader = csv.DictReader(csv_file, delimiter="\t")
 
         for row in reader:
-            subject = f"<http://example.com/{row['id']}>"
-            turtle_lines = [f"{subject} rdf:type owl:NamedIndividual ;"]
+            subject = f"<http://mu.semte.ch/vocabularies/ext/erfGoed/{uuid.uuid4()}>"
+            turtle_lines = [f"{subject} a ext:erfGoed ;"]
 
             for column, value in row.items():
                 if column in mapping_rules:
-                    predicate = mapping_rules[column]["predicate"]
-                    turtle_lines.append(f'    {predicate} "{value}" ;')
+                    if "data-type" in mapping_rules[column]:
+                        predicate = mapping_rules[column]["predicate"]
+                        if mapping_rules[column]["data-type"] == "URI":
+                            turtle_lines.append(
+                                f'    {predicate} {value} ;'
+                            )
+                        elif (
+                            mapping_rules[column]["data-type"]
+                            == "^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>"
+                        ):
+                            turtle_lines.append(
+                                f'    {predicate} "{value.lower()}"{mapping_rules[column]["data-type"]} ;'
+                            )
+                        else:
+                            turtle_lines.append(f'    {predicate} "{value}" ;')
+                    # We have encountered a "deep" instance which needs its own URI.
+                    elif "type" in mapping_rules[column]:
+                        inner_subject = (
+                            f"<http://data.lblod.info/id/locaties/{uuid.uuid4()}>"
+                        )
+                        turtle_lines.append(f'    {mapping_rules[column]["predicate"]} {inner_subject} ;')
+                        location_lines = [f"{inner_subject} a prov:Location ;"]
+                        location_lines.append(
+                            f'    {mapping_rules[column]["class"]["predicate"]} "{value}" ;'
+                        )
+                        # Remove the last semicolon and add a period
+                        location_lines[-1] = location_lines[-1].rstrip(" ;") + " ."
+                        location_turtle_file.write("\n".join(location_lines) + "\n")
 
             # Remove the last semicolon and add a period
             turtle_lines[-1] = turtle_lines[-1].rstrip(" ;") + " ."
             turtle_file.write("\n".join(turtle_lines) + "\n")
 
 
-def parse_csv(file_path):
-    data = []
-
-    with open(file_path, "r") as file:
-        reader = csv.DictReader(file, delimiter="\t")
-        for row in reader:
-            item = {
-                "id": row["id"],
-                "naam": row["naam"],
-                "locatie": row["locatie"],
-                "provincie": row["provincie"],
-                "gemeente": row["gemeente"],
-                "is_vastgesteld": row["is_vastgesteld"],
-                "is_beschermd": row["is_beschermd"],
-                "datering": row["datering"],
-                "gebeurtenissen": row["gebeurtenissen"],
-                "disciplines": row["disciplines"],
-                "dataverantwoordelijke": row["dataverantwoordelijke"],
-            }
-            data.append(item)
-
-    return data
-
-
 def main():
-    print("main")
+    csv_to_turtle("csv/modified.csv", "ttl/output.ttl")
 
 
 if __name__ == "__main__":
