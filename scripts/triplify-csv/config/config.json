@@ -1,0 +1,13 @@
+{
+  "id": {
+    "predicate": "ext:id",
+    "data-type": "string"
+  },
+  "location": {
+    "type": "prov:Location",
+    "class": {
+      "predicate": "rdfs:prefLabel",
+      "data-type": "string"
+    }
+  }
+}
