@@ -1,14 +1,46 @@
 {
-  "id": {
-    "predicate": "ext:id",
-    "data-type": "string"
+  "naam": {
+    "predicate": "ext:Name",
+    "data-type": "literal"
   },
-  "location": {
+  "locatie": {
     "predicate": "ext:hasLocation",
     "type": "prov:Location",
     "class": {
       "predicate": "rdfs:prefLabel",
-      "data-type": "string"
+      "data-type": "literal"
     }
+  },
+  "provincie": {
+    "predicate": "ext:inProvince",
+    "data-type": "URI"
+  },
+  "gemeente": {
+    "predicate": "ext:inMunicipality",
+    "data-type": "URI"
+  },
+  "is_vastgesteld": {
+    "predicate": "ext:isEstablished",
+    "data-type": "^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>"
+  },
+  "is_beschermd": {
+    "predicate": "ext:isProtected",
+    "data-type": "^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>"
+  },
+  "datering": {
+    "predicate": "ext:hasRecordedDate",
+    "data-type": "literal"
+  },
+  "gebeurtenissen": {
+    "predicate": "ext:event",
+    "data-type": "literal"
+  },
+  "disciplines": {
+    "predicate": "ext:discipline",
+    "data-type": "literal"
+  },
+  "dataverantwoordelijke": {
+    "predicate": "ext:responsible",
+    "data-type": "literal"
   }
 }
