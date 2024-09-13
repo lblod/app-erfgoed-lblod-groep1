@@ -22,6 +22,10 @@ services:
     image: semtech/mu-authorization:0.6.0-beta.5
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
+      LOG_OUTGOING_SPARQL_QUERIES: "true"
+      LOG_INCOMING_SPARQL_QUERIES: "true"
+      LOG_ACCESS_RIGHTS: "true"
+      LOG_OUTGOING_SPARQL_QUERY_ROUNDTRIP: "true"
     volumes:
       - ./config/authorization:/config
     restart: always

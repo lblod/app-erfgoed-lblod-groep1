@@ -1,0 +1,55 @@
+{
+  "version": "0.1",
+  "prefixes": {},
+  "resources": {
+    "concept-schemes": {
+      "name": "conceptScheme",
+      "class": "skos:ConceptScheme",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "concepts": {
+          "predicate": "skos:inScheme",
+          "target": "skosConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "top-concepts": {
+          "predicate": "skos:topConceptOf",
+          "target": "concept",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/concept-schemes/"
+    },
+    "skos-concepts": {
+      "name": "skosConcept",
+      "class": "skos:Concept",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "inScheme": {
+          "predicate": "skos:inScheme",
+          "target": "conceptScheme",
+          "cardinality": "many"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://lblod.data.gift/concepts/"
+    },
+    "permission-classification-codes": {
+      "name": "permissionClassificationCode",
+      "class": "ext:PermissionClassificatieCode",
+      "super": ["skosConcept"],
+      "new-resource-base": "http://data.lblod.info/permission-classification-codes/"
+    }
+  }
+}
