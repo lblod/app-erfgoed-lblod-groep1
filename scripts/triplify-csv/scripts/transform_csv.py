@@ -15,7 +15,7 @@ def csv_to_turtle(csv_file_path, turtle_file_path):
         reader = csv.DictReader(csv_file, delimiter="\t")
 
         for row in reader:
-            subject = f"<http://mu.semte.ch/vocabularies/ext/erfGoed/{uuid.uuid4()}>"
+            subject = f"<http://data.lblod.info/id/erfgoed/{uuid.uuid4()}>"
             turtle_lines = [f"{subject} a ext:erfGoed ;"]
 
             for column, value in row.items():

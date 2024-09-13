@@ -1,107 +1,105 @@
-@prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
-
-<http://mu.semte.ch/vocabularies/ext/erfGoed/b45263a8-30bc-402a-b611-b5dff9f21a3b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/4b2eacc7-733b-4ec8-9414-de6103535ee6> a ext:erfGoed ;
     ext:Name "Nautil" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/958b714f-008e-4bad-ba00-41b1360aee89> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/61584807-40f4-4d3b-b836-5ef52957c5e9> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "interbellum" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/aef0ed02-26b9-488f-8fc3-ba096fe73fab> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/c043ee9b-883a-47af-975a-f8c8f43fc020> a ext:erfGoed ;
     ext:Name "P904 Sambre" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/f422a11b-7f81-48de-8859-a5adeef34d69> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f5df00a8-1eca-475c-9a43-30b1057527c1> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "na WO II" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ae75d637-86fc-4339-9a5b-ac1a866f27ec> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/e717f1e3-5e11-47ba-a8b3-48311c201ee5> a ext:erfGoed ;
     ext:Name "SeaSens" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/5f532e42-7037-40cd-8d57-2a7628445bd6> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/742837ce-6cb4-4de1-8cc3-cf7722ffb6ef> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "interbellum" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/10683bcb-855e-436c-8648-37932e573eed> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/d3a48f83-3638-4ac3-a13a-140b0ce69509> a ext:erfGoed ;
     ext:Name "Avila" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/083c029b-d947-470c-b2a6-4cce54dae00e> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/531ba016-ba47-43ec-aff0-40b49b0fde47> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "na WO II" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ef139d5f-879e-4317-a6e6-6e9ad7609068> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/249f5d0b-7e1c-45e6-8d3e-23c59263dae2> a ext:erfGoed ;
     ext:Name "Mattheus" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/fb94ff6f-4fc9-4a38-a13b-c50ee0e732a6> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/fac25135-36bc-40d8-bf22-d639025b5ada> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "interbellum" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/fdd27233-71b4-466a-a3d8-6b0af5ab5d10> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/203e301a-8362-4e0d-a597-e49452e89403> a ext:erfGoed ;
     ext:Name "Maaike" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/351b7148-b0a7-4a5f-af60-10d15d8eb22d> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/0df405ae-c788-4028-82c1-b16574d6fb7b> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "voor WO I" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/78958f04-d9e1-41e5-a471-df6146e1c762> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/7c7e10bd-40bb-4f16-8b5b-c85f924ea5cf> a ext:erfGoed ;
     ext:Name "Willebroek" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7aea6570-cc76-4e62-a0c1-f4ef3ff9e809> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/83e91851-e35b-4a1c-9f22-f02765a053d7> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "na WO II" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a14881c2-5562-44b9-9342-4b28eed96832> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/1beb64b8-a279-4249-bf8d-f13e52aa0fc7> a ext:erfGoed ;
     ext:Name "L'Enfant Gâté" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/be9aaf89-7abd-4cb8-9103-cf8c55b90c73> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/20b9a5ca-2ddc-471f-af80-9694ff780d49> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "na WO II" ;
     ext:event "Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a2f80e13-ac66-45b6-bd2a-e4bb65a99068> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/2c897aaa-8c42-49c3-a391-a307dac33d76> a ext:erfGoed ;
     ext:Name "Picora" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/bb0e9b7d-b6e6-462e-adac-972380e33ca4> ;
-    ext:inProvince Onbepaald ;
-    ext:inMunicipality Onbepaald ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/424585d4-087c-433b-a994-fe2afad7e4fc> ;
+    ext:inProvince "Onbepaald" ;
+    ext:inMunicipality "Onbepaald" ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:isProtected "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
     ext:hasRecordedDate "voor WO I" ;
     ext:event "Onderzoeksproject sleep- en werkschepen" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5df0432e-b2fb-4bf6-8913-ab49ce299c14> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/348ab366-afaf-471d-b99d-619038309319> a ext:erfGoed ;
     ext:Name "Motorspits Esmeralda" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/b35acd4b-7689-4f45-a34f-e7778d5e9b05> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/902f7de4-719e-452c-9462-ccad328768f2> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -110,9 +108,9 @@
     ext:event "Ad hoc beschermingen 2022, Inventarisatie varend erfgoed fase I" ;
     ext:discipline "Varend" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2c498767-0957-4c49-9f90-5ae0dd3c9d79> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/6561ba87-3029-4fef-9770-0ec29bf77b9a> a ext:erfGoed ;
     ext:Name "Heilige Geestkapel" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/a1eed9e8-46d8-47bb-af69-361181293e7d> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/3b82026f-6fe3-4a49-a2b6-cee9c4cce90c> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -121,9 +119,9 @@
     ext:event "Actualisatie inventaris bouwkundig erfgoed, Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/e6376671-4eed-4f7f-bf97-73ab5f9b640c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/fb87cfd1-6b91-41c2-bbdc-d96a379ad0a6> a ext:erfGoed ;
     ext:Name "Honegem - Solegem" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/4400f39a-a421-42e8-9d75-70dda7ad1e90> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/e6a39d7e-0ac3-4852-874a-419fef7cb102> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/d9267014daa2764a9edd3b176678b56f57474ffe162363795690e5c684c6eab1>, <http://data.lblod.info/id/bestuurseenheden/17e71437ad9e1abbfd416b7bcb1485c0e6e21ac4f65f2a1584eb0985e246b1c9> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -132,9 +130,9 @@
     ext:event "Inventarisatie ankerplaatsen Landschapsatlas 2001, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/61e4f7c3-8cc8-4f40-91ab-ab02728f2cc9> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/95822cf8-2403-44c6-8c48-8af5b1ed4c42> a ext:erfGoed ;
     ext:Name "Kluisbos, Faluintjes en Abdij van Affligem" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/8e0cd2fd-de17-41da-99df-74be0fc92850> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/e6477486-b6d7-4945-93e2-dfbf0a7fbfd4> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c>, <http://data.lblod.info/id/werkingsgebieden/60a52229c92c1407e0549a573f820fb8a1f9fab5c82654b4b3493bc81be365de> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/011a6ad0efca0b7e03ca9b99bd6c636a26cbde49aa0d6844b9ebc434dc58216c> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -143,9 +141,9 @@
     ext:event "Aanduiding ankerplaatsen 2006-2014, Integreren informatie beschermingen landschap in erfgoedobjecten, Inventarisatie ankerplaatsen Landschapsatlas 2001" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/828bceb5-545d-4fd6-ba3e-068aa14cecb5> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/57d3f3a2-09e7-4e3f-b3e3-56e3f77440fa> a ext:erfGoed ;
     ext:Name "Historische stadskern van Aalst" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/73cef0d4-205d-439b-a993-03103f979dc6> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/7835304a-c95c-459c-aca7-b2bb99d96279> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -154,9 +152,9 @@
     ext:event "AZ-project historische stadskernen" ;
     ext:discipline "Archeologisch" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/11a49098-a0d8-462f-8c20-fc3cc7e8a657> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/9f5fb0ef-ce46-4f34-b12b-a50856e02a2b> a ext:erfGoed ;
     ext:Name "Opgaande zilverlinde in stadstuin" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/45f8d005-5205-469f-8bd6-8d52ec8248e6> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/20f4f533-7586-4cb0-ba01-630e50e8d731> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -165,9 +163,9 @@
     ext:event "Ad hoc-inventarisatie landschappelijk erfgoed 2015" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/fec69ad2-197c-45f3-b733-18c63b6d742f> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/75374bb9-958f-43d5-8205-d863cb354552> a ext:erfGoed ;
     ext:Name "Kravaalbos en omgeving" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/1e6234eb-aed6-4f4c-9aeb-ff050b9a7a58> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/71f8ea3d-b38e-4f7f-be71-a96cbe972c58> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c>, <http://data.lblod.info/id/werkingsgebieden/60a52229c92c1407e0549a573f820fb8a1f9fab5c82654b4b3493bc81be365de> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/0d2e643f4635d2b4d2fc75241a1624013b274c7ffbe8f8a5f36f2bf250336863>, <http://data.lblod.info/id/bestuurseenheden/929c049597e4961ea84051927af6be67062da4fc8ed9b755fc33b1597b8cdc7c> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -176,9 +174,9 @@
     ext:event "Inventarisatie ankerplaatsen Landschapsatlas 2001, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/74397973-6224-468c-b447-0291c0b8f417> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/697c5fbc-1c8d-47e9-87d7-5552246b3369> a ext:erfGoed ;
     ext:Name "Geknotte zomereik als hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/f754dc4a-66a6-44b9-b759-5a37dcf99390> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/734bde60-35ae-4448-9444-6aa62e7e61c4> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -187,9 +185,9 @@
     ext:event "Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ea3697e9-a1c7-4c49-9206-7fdf26e4ecf9> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/ebfb7abb-4dde-429f-8fa5-c863e98cca79> a ext:erfGoed ;
     ext:Name "Welle- en Kapellemeersen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/0296e148-7230-438e-8476-1434202fab63> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f90e0eb4-f3e4-44f1-8604-99756d99c980> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c>, <http://data.lblod.info/id/werkingsgebieden/60a52229c92c1407e0549a573f820fb8a1f9fab5c82654b4b3493bc81be365de> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/011a6ad0efca0b7e03ca9b99bd6c636a26cbde49aa0d6844b9ebc434dc58216c>, <http://data.lblod.info/id/bestuurseenheden/856cbc8af3fbe7390d43420e249c288596e87fbc069c601751d5c5fcd52c543b> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -198,9 +196,9 @@
     ext:event "Inventarisatie ankerplaatsen Landschapsatlas 2001, Inventarisatie Dendervallei tussen Ninove en Geraardsbergen, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/fd790c1b-6d4a-41d5-95bf-136aa2d38e4c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/6f19f24d-f9a5-490b-b28a-539c9df889a8> a ext:erfGoed ;
     ext:Name "Kapelboom in populierenbos" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/816197ee-d933-4ba7-ae75-cc73fd49e0c1> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/8ec08f2f-3fdc-473a-8a96-8cc0575f9569> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -209,9 +207,9 @@
     ext:event "Inventarisatie Dendervallei tussen Ninove en Geraardsbergen" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2f92e13d-5ac8-47aa-be34-55c9db90d50a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/6d44c99b-d1d0-4f13-8c52-38b3f30f3b62> a ext:erfGoed ;
     ext:Name "Bellebroek en Dendermeersen tussen Oudegem en Wieze" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/58182535-4491-4ef1-b409-b3cadd9ba231> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5a6d71bf-9961-4a15-b07c-b31777b6b1ad> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/a605a770e69d0af2d501614a41b446c76328d2f32165be238458468fbd5f8b88>, <http://data.lblod.info/id/bestuurseenheden/a277d61f41cf0025df3e51df800c9551a27c80e2515c32aabbbbbc2c818852eb> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -220,9 +218,9 @@
     ext:event "Inventarisatie ankerplaatsen Landschapsatlas 2001, Inventarisatie Dendervallei tussen Ninove en Geraardsbergen" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/f252807e-67bf-41ef-9885-574ba42ee7f5> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f82722d2-464e-4387-b8c3-2da9483d1d93> a ext:erfGoed ;
     ext:Name "Afgesneden Dendermeanders" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7df7d99b-3451-4654-bd73-2a22ffe6ae7c> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5af49555-4d33-4c58-9b6b-231e303b229e> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -231,9 +229,9 @@
     ext:event "Inventarisatie Dendervallei tussen Ninove en Geraardsbergen" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/3f342180-8560-4fdd-ba1c-45da6331aab2> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/8815b07d-5673-4e82-8d84-f15aa82f6bd6> a ext:erfGoed ;
     ext:Name "Dorpswegel" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/ddc3b941-43fb-49d7-a4a6-8ac793b7d655> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f5484350-5731-40ba-a488-d757f0f0625d> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>, <http://data.lblod.info/id/bestuurseenheden/a277d61f41cf0025df3e51df800c9551a27c80e2515c32aabbbbbc2c818852eb> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -242,9 +240,9 @@
     ext:event "Inventarisatie Dendervallei tussen Ninove en Geraardsbergen" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/eccde53a-d96e-42bc-9331-03e703d4d1ac> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/23ba8883-ddaf-42d4-a51e-74aff2741410> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/fbcecfd9-d3cd-4b0f-8196-be3fcc357348> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/a9604c07-e873-4fd3-83e4-76a9b84fbe70> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -253,9 +251,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/e6284fb2-64dd-44d3-9644-7b4cd1a0e2e0> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/97ad38ba-8107-4c89-9cc0-bdbeb80c0b96> a ext:erfGoed ;
     ext:Name "Opgaande es als hoekboom bij gewezen moestuin" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/8216e7e7-b94b-4e8e-abfb-0745fbeed935> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5685d674-f314-40e0-86d2-9b187fa33a67> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -264,9 +262,9 @@
     ext:event "Ad hoc-inventarisatie landschappelijk erfgoed 2015" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/c5bb42a1-587c-4f64-b6c3-2f448d538192> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/bd6919d2-e5f0-4759-bb4c-0fcdfef122ea> a ext:erfGoed ;
     ext:Name "Gekandelaarde rij zwarte populieren Achtermaal Maleveld" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/e2ac5304-b9c1-4607-ba8a-4e9ed5183c29> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f526cfb3-2f61-4932-b024-e869f65f7ca5> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -275,9 +273,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d95735b0-3ba8-4048-a8c3-2daa0523b4ea> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f4f8acf6-cd77-4bf6-af5f-7b9a052a3776> a ext:erfGoed ;
     ext:Name "Solitaire gekandelaarde zwarte populier Achtermaal Maleveld" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/62c229b1-c25e-480c-9c6c-a4c1ee1bf693> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/6f71f79f-8a76-4438-a328-733f86a5382f> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -286,9 +284,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d509140f-6612-48d5-863e-40826ce06c6c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/c7873efd-63fc-411b-98e0-c4e3a1685b04> a ext:erfGoed ;
     ext:Name "Gekandelaarde winterlinde als kapel- en hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/eb9afd58-3855-4ba6-8833-26530b34049d> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/96d920af-f0ff-4e3f-a0ae-953ac6a0687d> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -297,9 +295,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/3d601d51-5f0f-4137-9881-1c583e10417e> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/96e6c2f2-e64d-4852-9b68-5330d72e7552> a ext:erfGoed ;
     ext:Name "Opgaande Canadapopulier als hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/8768e242-241a-4695-9ad6-c11b84beb52b> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/cf049c16-1eb9-4824-8426-b0d769035fb1> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -308,9 +306,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/dcc447fb-1c56-48d2-8669-b9fab6e2e486> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/616dd7c6-b148-4b5b-9a99-84e51c21ad30> a ext:erfGoed ;
     ext:Name "Haagbeuken kaphaag" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/c2793d67-3de9-4ec0-a282-a214e11157d1> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/3c6e9749-9e71-43e0-af3a-1e51f1809eb4> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -319,9 +317,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/1ab58eb8-9fe6-421a-a4e7-e0963c1ceb2c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/9a9f860c-c50e-43a4-a4fc-bf8d9c9bfbd3> a ext:erfGoed ;
     ext:Name "Opgaande schietwilg als hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7a1005d8-b1f5-41b4-8273-c0e625888a69> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/bd275ae4-f75b-467f-9755-d8771ed10cfd> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -330,9 +328,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/fe178718-32e2-48ee-a83c-04a1d820d639> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/396673c4-76a3-4df8-99a2-e219c804b020> a ext:erfGoed ;
     ext:Name "Opgaande Canadapopulier als hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/c264c353-0d8b-4223-8810-8b24a4119b54> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/421b6e68-3500-432f-8005-d605ebca9332> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -341,9 +339,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5a79586f-0b27-4748-94ba-50a33f0ba029> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/4c4061c8-90bb-4bd4-bcd1-99b7ea78dcbb> a ext:erfGoed ;
     ext:Name "Opgaande grauwe abeel" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/0435f7ba-b243-49c3-aa37-d000f6644c6b> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/42c7e314-b84b-4854-8f2b-1fa0bf57b041> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -352,9 +350,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2a366a18-f75a-4ca8-92ff-7b91e6be2c4b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/90009661-b9f9-4e30-a033-a14b27261013> a ext:erfGoed ;
     ext:Name "Villa bij jeneverstokerij" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/d89ee45c-f9a2-447e-b59f-e315a3e6f8a7> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/8ffd5309-71d3-4791-83bc-f6789c0226d6> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -363,9 +361,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5b99d7a6-be8d-4968-98eb-1412d1ed9fc0> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/1ee18767-2386-415c-86f6-412c1a0db43e> a ext:erfGoed ;
     ext:Name "Opgaande winterlinde als welkomstboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/bd8fe3d8-5577-4205-b555-85fbe753cebe> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/fbc3b34e-6307-48f5-85c8-37e71de237e7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -374,9 +372,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/8a6776a1-d4bb-48e7-a06e-73fcae60438d> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/8dcd31c5-748a-44cb-abb1-ed29566b69b0> a ext:erfGoed ;
     ext:Name "Op stam gezette gele kornoelje" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/255c4ae5-1d24-4f97-9fa7-0437b53df8ce> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/1fd33f7d-0cec-4e93-9437-d3afee9a0a58> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -385,9 +383,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a6ed5816-3ea5-426f-a748-569328dcb2e3> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/e943fc38-54c1-40e0-879e-e0766ee797de> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/e57a612e-fdcb-4394-971c-511147648502> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4b709f4d-31ce-4272-9092-027d327582e9> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -396,9 +394,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/7325b403-02e9-4819-b263-eb91e260f9a9> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/af1726be-85b9-4918-9f03-589c17ca5250> a ext:erfGoed ;
     ext:Name "Eclectische herenhuizen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/8485f724-af4c-4804-b45f-2603f43ab126> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/a86fb442-4a84-4532-835c-b547a97fe9ca> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -407,9 +405,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d4575a12-3e07-483b-872a-1382cbc51f0a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/0c8af885-fc92-4249-bb7a-c8f773e17a83> a ext:erfGoed ;
     ext:Name "Rij burgerhuizen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3b1b1b88-ad47-454c-94a8-563fd6d4b069> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/b99175e1-b001-43f7-aec3-79c67300c21a> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -418,9 +416,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/95a78b8e-74fe-4738-a3fd-1b2d1468e245> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/7c731c68-b800-490e-ae13-4ba26feda328> a ext:erfGoed ;
     ext:Name "Sacristie en kerkhof van de gesloopte Onze-Lieve-Vrouw Hemelvaartkerk" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/af89e046-d1ff-4f3e-a554-0a8b6e845fd7> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/25c36945-b0fb-4a6c-a698-a2572b3e4d07> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -429,9 +427,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5a78c09b-f754-443b-8f00-bbcea31fc482> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/365d801b-8ac5-45de-8f5a-d624f619a997> a ext:erfGoed ;
     ext:Name "Grafkapel van de familie Van Assche" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/e005b538-43b6-4034-9ab4-0104b0ace0f2> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/03baee92-b688-4e5c-9f83-8b619fd0d1c7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -440,9 +438,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5e57b9ff-1564-4d4c-8998-4ce1e650ba38> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/3fc26cdb-e1ef-4377-98e9-4fe30b08f8ee> a ext:erfGoed ;
     ext:Name "Boerenwoning van 1765" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/72885ad9-6139-4f40-8f09-36379849f2ec> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4d9c8f49-9a37-48fc-9f58-03fc6a4ec9b3> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -451,9 +449,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/06847005-e1a7-4a60-ac11-bce7b4836df2> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/ac232c54-8cec-493a-b674-b4fdb3c315f0> a ext:erfGoed ;
     ext:Name "Hoeve met losse bestanddelen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/d7b975f3-5f59-4cee-8475-22bff0c04280> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/b704606a-9ae4-4f8c-8b94-939c78f97d73> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -462,9 +460,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/cf8f1ef9-134c-4490-8cf9-2f484a281a20> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f669bd15-dfb3-45e0-8291-6bfbf65fb4d1> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/ab2cc923-a4f1-40c7-aa1a-fb2eedd9f1f7> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/68ff68ef-2c77-4ae8-a974-93795f922af0> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -473,9 +471,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/62c2d65d-eba8-46e4-9890-3ab9cf1a64bb> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/bbd27f43-5403-4c8f-a8c2-871ac1770936> a ext:erfGoed ;
     ext:Name "Osbroek" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/8b8d5b28-dfc4-4b65-983d-69dcaf47b36a> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/697dc3bf-a5c0-42fb-a42e-392627bdff72> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -484,9 +482,9 @@
     ext:event "Inventarisatie ankerplaatsen Landschapsatlas 2001, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a636f23e-792b-43af-8169-27325e489c9a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/ab074403-7037-4acf-a827-541c4b8b4e9d> a ext:erfGoed ;
     ext:Name "Moerascipres Osbroekpark" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/540ecc6e-dd2b-4bd1-aaa3-f0dc911fc344> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/7d63eda1-66df-4d1d-873a-b06b5ba085f8> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -495,9 +493,9 @@
     ext:event "Ad hoc-inventarisatie landschappelijk erfgoed 2015, Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/eb418bcd-c206-408e-9ea5-f0825bb3ccdd> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/64719a49-f37f-4e56-850a-3ec23be19175> a ext:erfGoed ;
     ext:Name "Pakhuis" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/50745597-de5d-4fa6-8031-c8e7a5311bcc> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/fb627f2d-8492-40ee-a223-9a38287b8cf2> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -506,9 +504,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/cb0e9984-9414-41f4-96c7-1c30165b2491> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f589a4fa-8d44-460f-af95-04958188bd64> a ext:erfGoed ;
     ext:Name "Sociale woonwijk Oud Begijnhof" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7cdf4cb1-8ab4-4346-83c5-a8bd5695ec31> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/c3b90985-aeea-4302-838f-729dd1cc2b45> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -517,9 +515,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst, Inventarisatie sociale woningbouw" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/8879499f-cff4-4be5-b567-b26dd78700ec> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/ae72f577-8347-4951-a82d-d9e19a447091> a ext:erfGoed ;
     ext:Name "Keizersplein met deel aanpalende bebouwing" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3c00067c-f2ec-4710-bad4-e7d7b7b700a0> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5ee9934f-5c60-4026-a168-5a753c6e7329> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -528,9 +526,9 @@
     ext:event "Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5c6f7c29-ac2e-4900-9542-ac5c68719aaa> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/e0209e0e-2c6e-4e1e-ba82-6fa96040feb9> a ext:erfGoed ;
     ext:Name "Eclectisch hoekhuis" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/29555035-196e-49fc-b37e-cb67159a8ae0> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/88384371-2e68-4882-bdff-4ef5946a4542> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -539,9 +537,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2464c182-152b-42eb-96df-2f72e251d85f> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/cf908627-34cf-4b71-a0d2-c3178bcc908c> a ext:erfGoed ;
     ext:Name "Langgestrekte hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/6a2ab121-b1d0-464b-bf54-09651dccc3f9> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4ac5b8be-6d38-44f0-9898-74a9170062e3> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -550,9 +548,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/93308c14-e677-4507-bd2c-ce5c63b84d80> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/cecd8a49-876b-47ae-863f-6e55ce7ec9e9> a ext:erfGoed ;
     ext:Name "Dorpswoning" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/f7db1e00-ede9-4f24-84bc-0a170772f71b> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/552dd986-a079-4196-b7b4-7785f09e26bf> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -561,9 +559,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ee44c083-3f6c-4ddd-8a1d-29930ebd24b8> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/4d93b83f-0022-4753-be83-134c943f57c7> a ext:erfGoed ;
     ext:Name "Sint-Margrietommegang" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/5cfbf070-d1e0-492c-aecc-b4bbaee9f706> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/19355c16-e73a-47d3-ba9c-bc3ff0041583> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -572,9 +570,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d8dd2505-027d-4389-bbd7-56e2c4585cb7> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/cfd84f03-e203-487b-8436-58a597e6e053> a ext:erfGoed ;
     ext:Name "Boerenwoning" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/e0ca43f4-788e-42ee-bfa8-9fece5bfea4f> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/d748c4e0-4472-44d1-bf67-36b45d614c56> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -583,9 +581,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/97691f3d-fc22-48bd-92d9-652782d85e65> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/c49ba57a-c5cb-4b7d-b6a3-f25fab624a9d> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/a44226dd-69a0-4848-abc5-0195f4880d04> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/ae740543-b53e-4075-bf6b-4276f38f576b> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -594,9 +592,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/c171e715-fd3e-466e-8c91-54db6383de9e> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/b7bb24cc-9b73-4879-b011-4f0d91be9503> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/02b974f2-f24f-41ea-9ecb-75b87f8e195b> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4057e1df-a340-4c44-9f4e-e129a2e627ad> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -605,9 +603,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/5aabc52a-b2bb-477a-8c8a-caa83cf83eac> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/2659b528-c57e-4030-99b7-910a83cf5982> a ext:erfGoed ;
     ext:Name "Burgerhuis" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/2256bc4c-1195-4ebb-85b3-db23ae036799> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/0418fb3f-9992-455f-8edb-f1ad53138fe7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -616,9 +614,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/b55f8d91-bc6f-4762-ac12-bb269d7cd87a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/8c539306-bdbe-4f06-9302-9fd27d18ed93> a ext:erfGoed ;
     ext:Name "Semi-gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/9fa64b21-3e27-48b4-9609-621493c042d1> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/7242827d-f427-4b1e-8938-dad075b981d7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -627,9 +625,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d2db5181-25a6-4018-8b79-ce47054ad0fe> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/08aafbdb-a561-4a6f-81b2-920381c17446> a ext:erfGoed ;
     ext:Name "Gasthof Vonck" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/f391909d-5788-4e54-b19a-b53940d86522> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/7dc3f040-f4d6-470e-80a1-28dc1d256ebb> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -638,9 +636,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/379997e1-0aa7-4d6f-bb74-011f97e3ac48> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/21ed4033-b8e2-468a-af60-cbf8619307de> a ext:erfGoed ;
     ext:Name "Parochiekerk Sint-Margaretha met kerkhof" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/0b3a1c6e-3745-4053-a718-e8e06d3a5a52> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/57006ec3-0c7f-4a44-a247-d653995628de> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -649,9 +647,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst, Inventarisatie orgels " ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/84bc27ec-056b-420c-823e-3f33bae7807a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/92520961-f944-4296-a070-5b41ad790f15> a ext:erfGoed ;
     ext:Name "Pastorie Sint-Margarethaparochie met tuin" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3718e9e5-f6ae-4104-97a5-1b42154e1612> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/30fba25f-a673-47eb-b81a-15feb8b4fc64> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -660,9 +658,9 @@
     ext:event "Aanvullen informatie tuinen en parken in bestaande objecten, Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig, Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/6804a80e-6765-48b1-8b03-2b61ba4f53ed> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/baf63eaa-a3ee-4a9f-b2e1-c0d82758e691> a ext:erfGoed ;
     ext:Name "Semigesloten hoeve Hof ter Linde" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/611491cd-5c37-40ab-b5d1-8493c3c9f212> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/9b0aa37a-e9bf-4e29-8e57-9b8900322a28> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -671,9 +669,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/1667a767-a321-4dad-a9b5-1021d84a43a6> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/b988ad34-a3af-47cd-b680-0705e3d8dcb2> a ext:erfGoed ;
     ext:Name "Dorpswoning" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/41583f6b-89ad-43ca-a2e5-3146a29f1d63> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/229ff7eb-c47d-4595-ad5b-c9610efa1d1d> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -682,9 +680,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/1345c6e3-604a-43d3-80c0-1956281542fa> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/70a2fa10-ce70-4ea0-8295-b730c959e358> a ext:erfGoed ;
     ext:Name "Hoekpand" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/9b4cb525-f5f6-4b07-90d9-9d8bfe495b2c> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/97e11175-4d6f-4fd6-a3ee-c71ae3cc1716> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -693,9 +691,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/4ec9496a-25cb-4308-8045-e243b29f847b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/2a1ec063-a5e0-4c32-b254-17f780abf69e> a ext:erfGoed ;
     ext:Name "Kapel Sint-Antonius van Padua" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/a43e03a7-6d37-4226-9717-06dacb30ae56> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/74a30fa9-24ca-421f-a604-81a2a5e0ca45> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -704,9 +702,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/0828bfe9-ea86-4daf-a43a-d11ad9e95e16> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/2443ab14-bf3f-487f-bb2e-70654f739809> a ext:erfGoed ;
     ext:Name "Herenhuis van 1878" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/b80ee35b-ccdf-4361-ac62-0dbf071d7284> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/e7ffb6e6-8366-4b01-a46a-e504adb533a6> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -715,9 +713,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ff0b6607-049f-476e-ba3b-6604ee25d1fc> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/1b74ef29-8bf2-48c6-893c-bb9086999559> a ext:erfGoed ;
     ext:Name "Begijnhofkerk Sint-Catharina" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/0ab5bf36-7ebf-4973-bb02-06c4256bf43c> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/648af567-8344-4b9d-88bf-4dc2e8844b7d> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -726,9 +724,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/4882ada0-6f24-47a8-948f-6c1b17b97c3e> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/9fef472b-8834-4b4d-8008-e343809af1f4> a ext:erfGoed ;
     ext:Name "Twee neotraditionele huizen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/279b20fb-1dd1-473c-b38f-afff083079fe> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/e9363fba-b98c-471d-8880-43baea8d68a7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -737,9 +735,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ad369ba6-b415-420c-ae2a-49fa7f526389> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/d164cede-0818-42be-86a7-9e82af2815b5> a ext:erfGoed ;
     ext:Name "Hof te Eksel " ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/170ee794-9edd-4603-b85f-cd2600f2ebd7> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/0663f673-d862-475f-9c24-6a171a5cbe78> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -748,9 +746,9 @@
     ext:event "AZ-project: omzetten oude dossiers, Syntheseonderzoek mottekastelen" ;
     ext:discipline "Archeologisch" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/01a6a003-cb2e-47e4-bc4f-075c3ebff55c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/40f95619-f8dc-46c8-a23c-cabb870dc08e> a ext:erfGoed ;
     ext:Name "Pastorie Sint-Martinusparochie met tuin" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/b14dcf2c-400a-4ac6-baef-909350704d67> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/48dd2b01-3b27-44b4-a8a1-330ea25e2dd1> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -759,9 +757,9 @@
     ext:event "Aanvullen informatie tuinen en parken in bestaande objecten, Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig, Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/b4ca0311-4528-4b87-8b5f-34127300609c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/15188e0f-cb1a-4b22-b1f6-27316685a51f> a ext:erfGoed ;
     ext:Name "Burgerhuis" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/b42f639c-ce0d-4e1f-995b-b7bde0681dea> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/464b9022-99e1-4db1-910c-fb48bb227fc0> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -770,9 +768,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/bcae9897-ae3f-4340-b7eb-2ca1b1f7d3c3> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/a8225c01-f1ec-405a-a1f6-f92b697803a0> a ext:erfGoed ;
     ext:Name "Dorpswoning" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/de9b2f30-ee44-4994-949c-8f24b3636d1e> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/de76ee7c-2732-454f-a19e-252e190e7cbe> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -781,9 +779,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/61d93b54-fd86-4150-9df3-23fe2e3ffac7> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/35d790fe-6636-4beb-a216-d0e5234ff896> a ext:erfGoed ;
     ext:Name "Hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/039dbc11-880c-4916-8781-d02910634a87> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/66f596ea-5805-4b1b-bcd0-11e2b7c66b0b> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -792,9 +790,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/07822feb-d36a-4fa7-a551-1e35ab43ab3b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/6bc38156-bacf-448e-8b3e-fc5f61d11c9e> a ext:erfGoed ;
     ext:Name "Tweewoonst" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3c71bb5f-644a-4324-9922-1ac645b03c77> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/59037a72-fbee-4970-817d-8efee3401079> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -803,9 +801,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a9d0b3a8-e6a5-43d0-8e21-025823cd782a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f477944d-1d02-4520-ae44-2e649e27ddba> a ext:erfGoed ;
     ext:Name "Boerenarbeiderswoning" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/ca8f5d59-f302-4c27-884a-2b5e94149943> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4c4d035a-e5df-4e0f-9ec5-4641641ffee3> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -814,9 +812,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/928b1124-24ac-4b88-99e3-69475fde2265> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/cc903d52-0c7c-4791-a753-dae054512e83> a ext:erfGoed ;
     ext:Name "Geschoren taxussen op het kerkhof van Hofstade" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/153db37c-add5-4e66-95db-c85520004f7b> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/ae72c950-cd98-4c0c-b2e0-9ffc49b43412> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -825,9 +823,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/c48bf3f6-6dc2-412c-8a98-63ae52fbdc1e> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/22e31454-3e7a-4daa-9c67-efee6443507c> a ext:erfGoed ;
     ext:Name "Textielbedrijf La Couverture" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/ab0e7c46-6ede-446c-bae4-b5b76a815637> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/8a2b9302-9f0d-4f63-977a-5c8f0fe0574f> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -836,9 +834,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/17f25059-24e7-46d6-88a7-625e8fc02880> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/9db2654c-fade-4858-9e64-fbf841679599> a ext:erfGoed ;
     ext:Name "Reeks arbeiderswoningen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/d5e8ba4e-ec30-432e-8b5f-7f832a3d37b1> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/78738b45-7ce9-4d0a-8adc-7cade36b71e5> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -847,9 +845,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a744e4c6-84b1-4202-89d3-31378c944d12> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/ed692e96-a64d-4236-85b3-570acd5ac0d6> a ext:erfGoed ;
     ext:Name "Moerbei in gewezen moestuin" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/e6656a60-d964-4078-a842-33c6bebc8aad> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/c11c631c-0af9-4b1c-92eb-638319c355fb> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -858,9 +856,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/200e4a4d-d671-4d9c-9f6f-c3bf79cc7b4b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/138ac985-036b-43f0-a07f-cf55a70c9466> a ext:erfGoed ;
     ext:Name "Knotbomenrij van haagbeuk en twee zwarte populieren" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/1ca2d841-410e-4807-9f17-a8e162000383> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/ba69fa71-d16e-4794-acd8-97d95a71bba7> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -869,9 +867,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/ab085215-bd8b-43d6-b654-fd9413b5fce6> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/0a307e2a-19e3-4564-b5b7-4d3f2aa08941> a ext:erfGoed ;
     ext:Name "Bomenrij van opgaande abelen, zwarte en Canadapopulieren" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3316c821-a481-46ca-b610-2b19393799aa> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/58832ee4-7bb5-4cba-bf5b-2753607f87bf> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -880,9 +878,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/b5d2f355-1647-42bb-854b-b8308aaee201> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/801bcc0e-08de-4e89-bf30-9f8b678d1c88> a ext:erfGoed ;
     ext:Name "Kaphaag van haagbeuk" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7e53a0cb-0941-45ae-89e2-cb376dad0e19> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5929b594-0eb3-493e-8b94-c3403acc2a70> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -891,9 +889,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/1e0776fc-0ec7-41de-87fd-a0f13ea2d447> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/23f6348d-2835-41cd-beb7-0a2b6ea4f0e1> a ext:erfGoed ;
     ext:Name "Op stam gezette mispel" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/9dc90a13-8841-4897-86e9-53a867f65220> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/47ad93c5-940c-4860-acd2-5e433b3bd0cd> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -902,9 +900,9 @@
     ext:event "Inventarisatie houtige beplantingen 2005-2013" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/3301147f-da98-436c-ae39-6d374f4a50d0> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/e28adaac-04d5-47ce-863a-628cd5838ccb> a ext:erfGoed ;
     ext:Name "Semi-gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/1213735f-8fcb-43ca-8c2d-18bc0cf5e4d4> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/33a118f5-07a8-4697-9d78-429ec92ccc9a> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -913,9 +911,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/83d804ea-2352-42f8-9238-58e71904cb5a> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/56e054e0-527f-4a8f-b1c8-69b8cdc4d585> a ext:erfGoed ;
     ext:Name "Boerenhuisje" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/07093d39-8e91-41b1-a7b8-827857782e88> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/8fa8fa25-bbda-4da0-809a-3412420a089a> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -924,9 +922,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/409e8bca-221f-4424-bec8-10eaa50eca6c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/174d1925-a0c3-424c-8673-5919de77e5bd> a ext:erfGoed ;
     ext:Name "Boerenhuis" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/0f059ae9-ffa5-4f95-9d0c-12c982423f00> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5fce2970-8779-4e3f-9c38-5a14adf64a43> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -935,9 +933,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2f37e316-c5c2-4919-8998-7fa345ff0092> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/73383a39-cedc-4c9f-8d3f-2da76bcdab05> a ext:erfGoed ;
     ext:Name "Boerenwoning gedateerd 1773" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/2700d20c-6ed3-4922-a511-7fcabb7cde09> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/5a48331f-2d63-4ef9-be53-0d346aeaf78e> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -946,9 +944,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/b58fa247-f8fc-4932-9e6b-22a346221371> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/82039ec8-da50-4d64-996d-dbc29f4c93dc> a ext:erfGoed ;
     ext:Name "Boerenhuisje gedateerd 1760" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/6d1281ac-afcd-4902-9560-bb1d1519c320> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/341e3686-da65-45ae-98fc-b8f7ac737a4c> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -957,9 +955,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/2c706c33-10c7-4e07-ac3e-c404f673b0f0> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/f2d44fde-6f7d-4a6e-b4e2-732ca013a3cd> a ext:erfGoed ;
     ext:Name "Kapel Onze-Lieve-Vrouw van Zeven Weeën" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/9cbbfc2b-7549-43b6-b5d7-c9969e0f6a37> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/4a7aad04-318f-40bd-a968-89fd24a386e0> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -968,9 +966,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/cc552400-5eb0-4816-8285-3947c7173be7> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/7d96eef7-232f-405f-88c0-b14758d3eb9e> a ext:erfGoed ;
     ext:Name "Hoeve Overmolen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/b84733cc-48e3-46bf-b91e-7439ae6dec5d> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f59a1d8f-e751-49e3-bb55-cd214d315434> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -979,9 +977,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/c0835fe3-f9ce-46c8-a460-b583a122478b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/3bf3bb17-54dc-48d6-9071-f3538fb06b9d> a ext:erfGoed ;
     ext:Name "Reeks arbeidershuizen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3c4d9a06-70af-4fac-956b-ec0ca80a116a> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/6d2ab25b-fbf8-45ec-8616-e85a1da2341a> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -990,9 +988,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/11505b2f-1546-4a51-ae7e-5e1883acd326> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/99ff91ec-15fe-417d-88c9-32615e417785> a ext:erfGoed ;
     ext:Name "Hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/3489188e-c462-4c74-93cb-a6957a747b0a> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/60345ea9-9503-4501-b0a9-ebc6b55ed403> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1001,9 +999,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/edde2164-908e-475e-8a8e-58a705e2256c> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/66bab79c-4997-4592-89e6-1746deeae5a4> a ext:erfGoed ;
     ext:Name "Geknotte populier als hoekboom" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/24f49549-3fca-4997-a444-3ab100cd4c41> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/e6290f8a-7b93-49a9-b767-ff4b1d642a54> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1012,9 +1010,9 @@
     ext:event "Ad hoc-inventarisatie landschappelijk erfgoed 2020" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/9d79f3bf-ccc8-4433-b007-f41ac645ce21> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/05493641-5ced-4f68-956d-a59592a859c4> a ext:erfGoed ;
     ext:Name "Distillerie et Malterie Le Lion d'Or" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/09060ec0-de8f-4386-88f0-e60a4d43b170> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/31d41108-5ecb-46a1-84b7-29e2afc6020d> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1023,9 +1021,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/a9ac50f5-2f2b-4832-968e-40246d71b82b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/abd6fbda-aeba-4b4f-93a9-a9f676fe2c7a> a ext:erfGoed ;
     ext:Name "Rij arbeiderswoningen" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/7d6871c3-f8b8-4f9d-afcb-bdf4fc9771cd> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/d88be626-ddc1-4156-9f7c-eed2af1ea54f> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1034,9 +1032,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/d0a240ed-5426-4e7b-bebc-a9905ba5caac> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/aa926533-74cb-4a01-a6d6-b58f30ca84e5> a ext:erfGoed ;
     ext:Name "Gekandelaarde zwarte populier als hoekboom " ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/a68e76eb-8d95-43e8-ab0c-86df54dbd3d5> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/c31b8275-8b98-42c6-b381-dc5136082fe3> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1045,9 +1043,9 @@
     ext:event "Ad hoc-inventarisatie landschappelijk erfgoed 2020" ;
     ext:discipline "Landschappelijk" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/3b449211-0943-46e2-a5f5-04c24d0f5a9f> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/19f013f2-e322-4ae3-98a9-0b1f334aac23> a ext:erfGoed ;
     ext:Name "Kapel Onze-Lieve-Vrouw van Altijddurende Bijstand" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/844068bf-c97e-4f1b-a51e-7f4d97f30da5> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/62563feb-1c51-4aa3-90df-b804a10e8616> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1056,9 +1054,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/80ea84f1-403e-4cec-a3bb-b4d18c2c2c49> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/455d9ff9-28e4-473b-b82d-245bc24c9ef7> a ext:erfGoed ;
     ext:Name "Gesloten hoeve" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/52036393-1709-43db-8d6d-5cc77246c74f> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/f0b2329b-61f9-47b1-98aa-6821b5ef5ffe> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1067,9 +1065,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/c2c12243-047b-48bc-b1d0-a083c4f12ac5> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/41bf739b-5781-4e02-befb-70f403e28496> a ext:erfGoed ;
     ext:Name "Sint-Annakapel" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/03b16158-c0f6-4fb8-a6d8-9812c7e585e2> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/9bc5511e-8c0d-4c5e-8538-10b9cb8d69a9> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
@@ -1078,9 +1076,9 @@
     ext:event "Inventarisatie bouwkundig erfgoed Aalst" ;
     ext:discipline "Bouwkundig" ;
     ext:responsible "Agentschap Onroerend Erfgoed" .
-<http://mu.semte.ch/vocabularies/ext/erfGoed/cc868068-0389-49ad-a649-d5f8f2213e8b> a ext:erfGoed ;
+<http://data.lblod.info/id/erfgoed/5a388581-45b2-4b7a-a604-e8ab6b2ad400> a ext:erfGoed ;
     ext:Name "Domein Ronsevaal" ;
-    ext:hasLocation <http://data.lblod.info/id/locaties/c7ed7ee5-5634-4f78-8438-27e30311ae3d> ;
+    ext:hasLocation <http://data.lblod.info/id/locaties/2d66abdd-214c-499e-9023-8e1b76c00605> ;
     ext:inProvince <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
     ext:inMunicipality <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
     ext:isEstablished "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
