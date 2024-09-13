@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://data.lblod.info/id/locaties/a1cddd48-b3ea-47df-9886-1c3b1c988fd7> a prov:Location ;
   rdfs:label "'t Maegelijnplein 1, Kattestraat 32-34 (Aalst)" .
@@ -13,9 +13,9 @@
   prov:Location <http://data.lblod.info/id/locaties/a1cddd48-b3ea-47df-9886-1c3b1c988fd7> ;
   ext:inProvincie <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
   ext:inGemeente <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4> ;
-  ext:isVastgesteld true^^xsd:boolean ;
-  ext:isBeschermd true^^xsd:boolean ;
+  ext:isVastgesteld "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
+  ext:isBeschermd "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> ;
   ext:hasDatering "derde kwart 15de eeuw, voor WO I" ;
-  ext:changeEvent "Actualisatie inventaris bouwkundig erfgoed, Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016"
+  ext:changeEvent "Actualisatie inventaris bouwkundig erfgoed, Inventarisatie bouwkundig erfgoed Aalst, Project beschermingsdatabank 2013-2016" ;
   ext:hasDiscipline "Bouwkundig" ;
   ext:hasResponsible "Agentschap Onroerend Erfgoed" .
