@@ -3,12 +3,13 @@
 @prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mu:	<http://mu.semte.ch/vocabularies/core/> .
 
 <http://data.lblod.info/id/locaties/a1cddd48-b3ea-47df-9886-1c3b1c988fd7> a prov:Location ;
   rdfs:label "'t Maegelijnplein 1, Kattestraat 32-34 (Aalst)" .
 
-<http://data.lblod.info/id/erfgoed/99018> a ext:erfGoed ;
-  ext:id "84" ;
+<http://data.lblod.info/id/erfgoed/c4fbca50-955f-4ff1-9916-07ab78132e55> a ext:erfGoed ;
+  mu:uuid "c4fbca50-955f-4ff1-9916-07ab78132e55" ;
   foaf:name "Heilige Geestkapel" ;
   prov:Location <http://data.lblod.info/id/locaties/a1cddd48-b3ea-47df-9886-1c3b1c988fd7> ;
   ext:inProvincie <http://data.lblod.info/id/werkingsgebieden/a9a0cabd376a2b3a8eb838f15f6aeb1b63ffe49d527598994962e0d15ad2081c> ;
