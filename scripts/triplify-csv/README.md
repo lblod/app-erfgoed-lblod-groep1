@@ -46,5 +46,5 @@ docker build --no-cache -t triplify-csv .
 Run this command inside `scripts/triplify-csv`.
 
 ```sh
-docker run -it --rm -v ./preprocessing:/app/preprocessing triplify-csv:latest
+docker run -it --rm -v ./config/:/app/config -v ./csv/:/app/csv/ -v ./preprocessing:/app/preprocessing -v ./ttl/:/app/ttl triplify-csv:latest
 ```
