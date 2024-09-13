@@ -4,6 +4,7 @@
     "data-type": "string"
   },
   "location": {
+    "predicate": "ext:hasLocation",
     "type": "prov:Location",
     "class": {
       "predicate": "rdfs:prefLabel",
