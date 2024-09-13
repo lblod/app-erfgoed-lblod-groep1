@@ -1,59 +1,34 @@
-import csv
-import json
+from glob import glob
 
-# Load mapping config from JSON file
-with open("config/config.json", "r") as json_file:
-    mapping_rules = json.load(json_file)
+import os
+import importlib
+import argparse
 
+parser = argparse.ArgumentParser(add_help=False)
 
-# Function to transform CSV to Turtle
-def csv_to_turtle(csv_file_path, turtle_file_path):
-    with open(csv_file_path, "r") as csv_file, open(
-        turtle_file_path, "w"
-    ) as turtle_file:
-        reader = csv.DictReader(csv_file, delimiter="\t")
+# Pass the python script you want to run (optional)
+parser.add_argument("-f", "--file", nargs="?", default=None, type=str)
+args = parser.parse_args()
 
-        for row in reader:
-            subject = f"<http://example.com/{row['id']}>"
-            turtle_lines = [f"{subject} rdf:type owl:NamedIndividual ;"]
+if args.file:
+    script_name = os.path.splitext(args.file)[0]
+else:
+    # If a user does not specify the specific script to run, enumerate the
+    # existing scripts inside `scripts/` for the user to choose one of them.
+    script_files = [f for f in glob("scripts/**/*.py", recursive=True)]
 
-            for column, value in row.items():
-                if column in mapping_rules:
-                    predicate = mapping_rules[column]["predicate"]
-                    turtle_lines.append(f'    {predicate} "{value}" ;')
+    print("Available scripts:")
+    for i, script_file in enumerate(script_files):
+        script_name = os.path.splitext(script_file)[0]
+        print(f"{i+1}. {script_name}")
 
-            # Remove the last semicolon and add a period
-            turtle_lines[-1] = turtle_lines[-1].rstrip(" ;") + " ."
-            turtle_file.write("\n".join(turtle_lines) + "\n")
+    # Prompt the user to choose a script
+    choice = int(input("Enter the number of the script you want to run: "))
 
+    # Import and run the selected script
+    script_name = os.path.splitext(script_files[choice - 1])[0]
 
-def parse_csv(file_path):
-    data = []
-
-    with open(file_path, "r") as file:
-        reader = csv.DictReader(file, delimiter="\t")
-        for row in reader:
-            item = {
-                "id": row["id"],
-                "naam": row["naam"],
-                "locatie": row["locatie"],
-                "provincie": row["provincie"],
-                "gemeente": row["gemeente"],
-                "is_vastgesteld": row["is_vastgesteld"],
-                "is_beschermd": row["is_beschermd"],
-                "datering": row["datering"],
-                "gebeurtenissen": row["gebeurtenissen"],
-                "disciplines": row["disciplines"],
-                "dataverantwoordelijke": row["dataverantwoordelijke"],
-            }
-            data.append(item)
-
-    return data
-
-
-def main():
-    print("main")
-
-
-if __name__ == "__main__":
-    main()
+# Transform the file path to a module path
+script_name = script_name.replace("/", ".")
+script_module = importlib.import_module(f"{script_name}")
+script_module.main()
